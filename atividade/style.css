@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(52, 69, 69);
+}
+
+
+.linha1 {
+  /* float: left;
+  width: 50%; */
+  display: grid;
+  grid-template-columns: 25% 75%;
+  
+}
+
+.logo {
+  height: 70px;
+  background-color: yellow;
+  min-height: 20px;
+  max-height: 500px;
+  height: 70px;
+  
+}
+
+.pesquisa {
+  background-color: yellowgreen;
+}
+
+.nave {
+  background-color: red;
+  height: 70px;
+  min-height: 20px;
+  max-height: 500px;
+}
+
+.conteudo {
+  background-color: brown;
+  height: 400px;
+  min-height: 20px;
+  max-height: 500px;
+}
+
+.nav2 {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 70px;
+  min-height: 20px;
+  max-height: 500px;
+}
+
+div.a {
+  background-color: aqua;
+}
+
+div.b {
+  background-color: green;
+}
+
+div.c {
+  background-color: blueviolet;
+}
+
+.rodape {
+  background-color: grey;
+  height: 70px;
+  min-height: 20px;
+  max-height: 500px;
+}
