@@ -16,6 +16,7 @@ let containerA = new ProgressBar.Circle(circleA, {
     circle.path.setAttribute('stroke-width', state.width);
 
     let value = Math.round(circle.value() * 100);
+    let value = Math.round(circle.value() * 100);
     if (value === 0) {
       circle.setText('');
     } else {
