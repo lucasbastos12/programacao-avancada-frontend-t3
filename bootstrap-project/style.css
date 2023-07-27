@@ -17,6 +17,68 @@ p, li {
     font-size: 14px;
 }
 
+/* cabeça de caixa dagua */
+
+#nav-container {
+  padding: 0;
+}
+
+header nav {
+  height: 10vh;
+}
+
+header img {
+  width: 60pxa;
+}
+
+/* Slideshow / Carrosel */
+
+/* #carousel-area {
+  margin-top: 57px;
+} */
+
+.carousel-item {
+  height: 100%;
+}
+
+/* .carousel-caption {
+  position: absolute;
+  font-size: 50px;
+  margin-bottom: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.carousel-caption p{
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.btn-slide {
+  background-color: #65daf9;
+  color: #fff;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .3s;
+}
+
+.main-btn:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  border-color: #65daf9;
+}
+
+.carousel-indicators .active {
+  background-color: #65daf9;
+}
+
 /* Sobre */
 
 .main-title:after{
@@ -277,4 +339,81 @@ p, li {
 #apply-content h4 {
   margin-top: 15%;
 }
+
+/* Conheça nossos projetos */
+
+.img-project {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* news */
+
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* rodape */
+
+.bla   {
+  margin: 20px;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #3ec1d5;
+}
+
+.contact-box {
+  text-align: center;
+}
+
+.contact-box i {
+  font-size: 36px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+span, .contact-title {
+  color: #3ec1d5;
+}
+
+#contact-area {
+  text-align:center;
+}
+
+.contact-box {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #3ec1d5;
+}
+
+.contact-box i {
+  color: #444;
+  border: solid 1px #444;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+#msg-box p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+#contact-form .main-btn:hover {
+  color: #3ec1d5;
+}
+
 
